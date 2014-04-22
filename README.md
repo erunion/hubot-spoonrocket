@@ -5,6 +5,8 @@ A [Hubot](https://github.com/github/hubot) plugin to tell you what [SpoonRocket]
 ### Usage
 
     hubot spoonrocket - Pulls today's menu
+    hubot spoonrocket sf - Pulls today's San Francisco menu
+    hubot spoonrocket eastbay - Pulls today's East Bay menu
 
 ### Installation
 1. Edit `package.json` and add `hubot-spoonrocket` as a dependency.
