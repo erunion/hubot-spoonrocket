@@ -47,7 +47,7 @@ module.exports = (robot) =>
         if now >= resp.closing_time && resp.closing_time != '00:00'
           return msg.send "Sorry, SpoonRocket is currently closed in " + zone.name + "."
 
-        emit = 'Today\'s SpoonRocket menu is:' + "\n";
+        emit = 'Today\'s SpoonRocket menu is:' + "\n\n";
         menu = []
 
         for entry in resp.menu
@@ -62,5 +62,7 @@ module.exports = (robot) =>
           menu.push(item)
 
         emit += menu.join("\n")
+
+        emit += "\n\n" + 'Order: https://www.spoonrocket.com/'
 
         msg.send emit
