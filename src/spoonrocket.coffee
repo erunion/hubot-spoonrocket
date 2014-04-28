@@ -12,7 +12,6 @@
 # Author:
 #   jonursenbach
 
-cheerio = require 'cheerio'
 moment = require 'moment'
 
 module.exports = (robot) =>
