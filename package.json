@@ -1,6 +1,6 @@
 {
   "name": "hubot-spoonrocket",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "author": "Jon Ursenbach <jon@ursenba.ch>",
   "description": "A Hubot plugin to tell you what SpoonRocket has today.",
   "keywords": [
