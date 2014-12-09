@@ -20,7 +20,7 @@
     "type": "git",
     "url": "https://github.com/jonursenbach/hubot-spoonrocket.git"
   },
-  "main": "./src/spoonrocket",
+  "main": "index.coffee",
   "dependencies": {
     "moment": "^2.6.0"
   }
