@@ -9,10 +9,9 @@ A [Hubot](https://github.com/github/hubot) plugin to tell you what [SpoonRocket]
     hubot spoonrocket eastbay - Pulls today's East Bay menu
 
 ### Installation
-1. Edit `package.json` and add `hubot-spoonrocket` as a dependency.
+1. `npm install hubot-spoonrocket --save`
 2. Add `"hubot-spoonrocket"` to your `external-scripts.json` file.
-3. `npm install`
-4. Reboot Hubot.
+3. Reboot Hubot.
 
 ### Contributors
 * [llkats](https://github.com/llkats) for hunting down the API endpoints
